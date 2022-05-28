@@ -1,0 +1,728 @@
+body{
+	background-color:#050714;
+	width:100%;
+	height:100%;
+}
+/* topo da página */
+.inicio{
+	margin-top:0%;
+	width:100%;
+}
+.assinatura{
+	margin-top:-20px;
+	width:100%;
+	height:900px;
+    float:left;
+	position:absolute;
+	background-image:radial-gradient(circle at center right,rgb(255,165,0,0.0) 13%,#050714 53%);
+	text-align:center;
+	display:block;
+}
+.titulo{
+	color:#ffffff;
+	margin-left:-40%;
+	margin-top:8%;
+	margin-bottom:2%;
+	font-size:28px;
+	font-family:'Bahnschrift Light';
+}
+#logo-d{
+	width:22%;
+	margin-left:-40%;
+	margin-bottom:2%;
+}
+.botao-assinar{
+	margin-left:-40%;
+	background-color:rgb(100,33,255);
+	text-transform:uppercase;
+	padding-top:1.5%;
+	padding-bottom:1.5%;
+	padding-left:12%;
+	padding-right:12%;
+}
+.botao-assinar:hover{
+	background-color:rgb(120,40,255);
+}
+.link-box{
+	font-family:'Calibri Light';
+	font-size:25px;
+	text-decoration:none;
+	color:#ffffff;
+}
+.link-ul{	
+	list-style-type:none;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	margin-left:-40%;
+	font-family:'Arial';
+	font-size:19px;
+}
+.links-assinar{
+	color:#ffffff;
+	margin:2px;
+	text-align:center;
+}
+#ilustraimg{
+	margin-top:0px;
+    float:right;
+	width:55%;
+	height:45%;
+}
+.botao-entrar{
+	position:absolute;
+	margin-left:90%;
+	margin-top:-1%;
+	background-color:rgb(33,39,43);
+	border:1px solid #ffffff;
+	border-radius:5px;
+	padding:12px;
+}
+.botao-entrar:hover{
+	background-color:#ffffff;
+	color:#000000;
+}
+.entrar{
+	color:#ffffff;
+	font-size:25px;
+	font-family:'Calibri Light';
+	text-decoration:none;
+}
+.entrar:hover{
+	color:#000000;
+}
+/* ofertas e planos */
+.planos{
+	position:absolute;
+	color:white;
+	margin-top:45%;
+}
+.todos-os-planos{
+	display:flex;
+	margin-left:5%;
+	margin-right:5%;
+	font-family:'Calibri Light';
+}
+.titulo-plano{
+	text-align:center;
+	font-family:'Calibri Light';
+	font-size:48px;
+}
+.nome-plano{
+	color:rgb(187,187,188);
+	font-size:27px;
+}
+#esclarecer{
+	text-align:center;
+	font-family:'Calibri Light';
+}
+.precos{
+	margin-top:-1%;
+	font-size:30px;
+}
+.descricao-planos{
+	font-size:22px;
+	color:rgb(187,187,188);
+}
+.plano1{
+	background-image:linear-gradient(rgb(19,9,43),#050714);
+	border:4px solid transparent;
+	border-image:linear-gradient(rgb(159,61,251),#050714 90%);
+	border-image-slice:1;
+	margin-left:2%;
+	margin-right:2%;
+	padding:2%;
+	text-align:center;
+}
+.plano2{
+	background-image:linear-gradient(rgb(3,12,64),#050714);
+	border:4px solid transparent;
+	border-image:linear-gradient(rgb(0,200,245),#050714 90%);
+	border-image-slice:1;
+	margin-left:2%;
+	margin-right:2%;
+	padding:2%;
+	text-align:center;
+}
+.plano3{
+	background-image:linear-gradient(rgb(3,12,64),#050714);
+	border:4px solid transparent;
+	border-image:linear-gradient(rgb(0,200,245),#050714 90%);
+	border-image-slice:1;
+	margin-left:2%;
+	margin-right:2%;
+	padding:2%;
+	text-align:center;
+}
+.linkp{
+	text-decoration:none;
+	font-size:25px;
+	color:#ffffff;
+}
+.botao-plano1{
+	background-color:rgb(100,33,255);
+	border:4px solid rgb(100,33,255);
+	border-radius:5px;
+	padding-top:12px;
+	padding-bottom:12px;
+	padding-left:18px;
+	padding-right:18px;
+}
+.botao-plano2{
+	background-color:rgb(0,110,245);
+	border:4px solid rgb(0,110,245);
+	border-radius:5px;
+	padding-top:12px;
+	padding-bottom:12px;
+	padding-left:18px;
+	padding-right:18px;
+}
+.botao-plano3{
+	background-color:rgb(0,110,245);
+	border:4px solid rgb(0,110,245);
+	border-radius:5px;
+	padding-top:12px;
+	padding-bottom:12px;
+	padding-left:18px;
+	padding-right:18px;
+}
+/* parte "Assista do seu jeito" */
+.meio-doseujeito{
+	margin-top:100%;
+	position:absolute;
+	font-family:'Calibri Light';
+	margin-left:5%;
+	margin-right:5%;
+	display:flex;
+}
+.titulo-geral{
+	font-size:48px;
+	color:#ffffff;
+	margin-bottom:-0.5%;
+	margin-top:20%;
+}
+.p-geral{
+	font-size:22px;
+	color:rgb(187,187,188);
+}
+#mandalorian-avengers{
+	width:45%;
+	margin-left:2%;
+}
+/* originais */
+.originais{
+	position:absolute;
+	font-family:'Calibri Light';
+	margin-top:130%;
+	text-align:center;
+}
+.titulo-geral2{
+	font-size:48px;
+	color:#ffffff;
+	margin-bottom:-0.5%;
+	margin-top:20%;
+}
+.p-geral2{
+	font-size:22px;
+	color:rgb(187,187,188);
+	text-align:center;
+}
+.img-originais{
+	width:30%;
+	padding:0.7%;
+}
+/* baixe filmes e series */
+.baixe{
+	position:absolute;
+	display:flex;
+	margin-top:230%;
+	margin-left:5%;
+	margin-right:5%;
+}
+.titulo-geral3{
+	font-family:'Calibri Light';
+	font-size:48px;
+	color:#ffffff;
+	margin-top:20%;
+}
+.p-geral3{
+	font-family:'Calibri Light';
+	font-size:22px;
+	color:rgb(187,187,188);
+}
+#r-leao{
+	width:50%;
+	margin-right:5%;
+}
+/* dispositivos*/
+.dispositivos{
+	position:absolute;
+	margin-top:285%;
+	text-align:center;
+}
+.dispo{
+	display:flex;
+}
+.imgs-meios{
+	width:70%;
+}
+.nome-meio{
+	font-family:'Calibri Light';
+	font-size:35px;
+	color:#ffffff;
+}
+.lista-meios{
+	font-family:'Calibri Light';
+	font-size:19px;
+	color:rgb(187,187,188);
+	list-style-type:none;
+}
+.titulo-geral4{
+	font-family:'Calibri Light';
+	font-size:48px;
+	color:#ffffff;
+}
+/* perguntas frequentes */
+.perguntas-frequentes{
+	position:absolute;
+	margin-top:335%;
+	width:100%;
+	margin-left:5%;
+	margin-right:5%;
+}
+.titulo-perguntas{
+	font-family:'Calibri Light';
+	font-size:48px;
+	color:#ffffff;
+	text-align:center;
+}
+.perguntas{
+	font-family:'Calibri Light';
+	font-size:22px;
+	color:#ffffff;
+	background-color:rgb(19,21,29);
+	padding:30px;
+	text-decoration:none;
+	width:80%;
+	display:inline-block;
+}
+.pd{
+	margin:12px;
+}
+/* rodape */
+.rodape{
+	position:absolute;
+	text-align:center;
+	margin-top:390%;
+	border-bottom:60px solid transparent;
+}
+.organizar-rodape{
+	display:flex;
+	margin-left:15%;
+	margin-right:15%;
+	font-family:'Calibri Light';
+	color:rgb(187,187,188);
+	margin-bottom:4px;
+}
+.nav-link-r{
+	margin:6px;
+	text-align:center;
+	font-family:'Calibri Light';
+	color:rgb(187,187,188);
+	text-decoration:none;
+}
+.idioma{
+	margin:6px;
+}
+select{
+	background-color:#050714;
+	font-family:'Calibri Light';
+	color:rgb(187,187,188);
+	border:none;
+}
+.p-rodape{
+	font-family:'Calibri Light';
+	color:rgb(187,187,188);
+	margin-bottom:4px;
+	margin-top:4px;
+}
+#logopeq{
+	width:8%;
+	margin-bottom:4px;
+}
+/* responsividade em outras telas */
+@media(max-width:1200px){
+	/* topo */
+	.botao-entrar{
+		margin-left:87%;
+	}
+}
+@media(max-width:1180px){
+	/* "Assista do seu jeito" */
+	.meio-doseujeito{
+		margin-top:110%;
+	}
+}
+@media(max-width:1050px){
+	/* topo */ 
+	.assinatura{
+		background-image:linear-gradient(rgb(255,165,0,0.0) 13%,#050714 53%);
+		margin-top:38%;
+	}
+	.titulo{
+		margin-left:0%;
+		margin-top:22%;
+	}
+	#logo-d{
+		margin-left:0%;
+		width:30%;
+	}
+	.botao-assinar{
+		margin-left:0%;
+	}
+	.link-ul{
+		margin-left:0%;
+	}
+	#ilustraimg{
+		width:100%;
+	}
+	/* ofertas e planos */
+	.planos{
+		margin-top:100%;
+	}
+	/* "Assista do seu jeito" */
+	.meio-doseujeito{
+		margin-top:170%;
+	}
+	/* originais */
+	.originais{
+		margin-top:200%;
+	}
+	/* baixe filmes e series */
+	.baixe{
+		margin-top:310%;
+	}
+		/* dispositivos*/
+	.dispositivos{
+		margin-top:380%;
+	}
+	/* perguntas frequentes */
+	.perguntas-frequentes{
+		margin-top:445%;
+	}
+	/* rodape */
+	.rodape{
+		margin-top:500%;
+	}
+}
+@media(max-width:950px){
+	/* "Assista do seu jeito" */
+	.meio-doseujeito{
+		margin-top:185%;
+	}
+	#mandalorian-avengers{
+		width:50%;
+		height:45%;
+	}
+	/*originais*/
+	.originais{
+		margin-top:215%;
+	}
+		/* baixe filmes e series */
+	.baixe{
+		margin-top:330%;
+	}
+	/* dispositivos*/
+	.dispositivos{
+		margin-top:400%;
+	}
+	/* perguntas frequentes */
+	.perguntas-frequentes{
+		margin-top:465%;
+	}
+	/* rodape */
+	.rodape{
+		margin-top:540%;
+	}
+}
+@media(max-width:880px){
+	/* topo */
+	.botao-entrar{
+		margin-left:85%;
+	}
+	/* "Assista do seu jeito" */
+	.meio-doseujeito{
+		margin-top:200%;
+	}
+	#mandalorian-avengers{
+		width:40%;
+		height:35%;
+	}
+	.titulo-geral{
+		margin-top:0%;
+		font-size:36px;
+	}
+	.p-geral{
+		font-size:19px;
+	}
+		/*originais*/
+	.originais{
+		margin-top:220%;
+	}
+	/* baixe filmes e series */
+	.titulo-geral3{
+		margin-top:17%;
+		font-size:36px;
+	}
+	.p-geral3{
+		font-size:19px;
+	}
+	/* perguntas frequentes */
+	.perguntas-frequentes{
+		margin-top:490%;
+	}
+	/* rodape */
+	.rodape{
+		margin-top:560%;
+	}
+}
+@media(max-width:810px){
+	/* topo */
+	.titulo{
+		font-size:24px;
+	}
+	#logo-d{
+		width:24%;
+	}
+	.link-box{
+		font-size:21px;
+	}
+	.botao-entrar{
+		padding:9px;
+	}
+	.entrar{
+		font-size:18px;
+	}
+	.link-ul{
+		font-size:15px;
+	}
+	/* "Assista do seu jeito" */
+	.meio-doseujeito{
+		margin-top:215%;
+	}
+	/*originais*/
+	.originais{
+		margin-top:240%;
+	}
+	/* baixe filmes e series */
+	.baixe{
+		margin-top:360%;
+	}
+	/* dispositivos*/
+	.dispositivos{
+		margin-top:430%;
+	}
+	.titulo-geral4{
+		font-size:38px;
+	}
+	.nome-meio{
+		font-size:30px;
+	}
+	.meios{
+		padding:2px;
+	}
+	
+	/* perguntas frequentes */
+	.perguntas-frequentes{
+		margin-top:500%;
+	}
+	.titulo-perguntas{
+		font-size:36px;
+	}
+	.perguntas{
+		font-size:19px;
+	}
+}
+@media(max-width:720px){
+	/* ofertas e planos */
+	.titulo-plano{
+		font-size:32px;
+	}
+	.todos-os-planos{
+		display:block;
+		margin-left:22%;
+		margin-right:22%;
+	}
+	.nome-plano{
+		font-size:21px;
+	}
+	.precos{
+		font-size:25px;
+	}
+	.descricao-planos{
+		font-size:18px;
+	}
+	.botao-plano1{
+		padding-top:10px;
+		padding-bottom:10px;
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.botao-plano2{
+		padding-top:10px;
+		padding-bottom:10px;
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.botao-plano3{
+		padding-top:10px;
+		padding-bottom:10px;
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.linkp{
+		font-size:20px;
+	}
+	.plano1{
+		margin-bottom:15%;
+	}
+	.plano2{
+		margin-bottom:15%;
+	}
+	/* "Assista do seu jeito" */
+	.meio-doseujeito{
+		display:block;
+		margin-top:270%;
+	}
+	.titulo-geral{
+		font-size:32px;
+	}
+	.p-geral{
+		font-size:18px;
+	}
+	#mandalorian-avengers{
+		width:90%;
+		height:80%;
+	}
+	/* originais */
+	.originais{
+		margin-top:355%;
+	}
+	.img-originais{
+		width:45%;
+	}
+	.titulo-geral2{
+		font-size:32px;
+	}
+	.p-geral2{
+		font-size:18px;
+	}
+	/* baixe filmes e series */
+	.baixe{
+		display:block;
+		margin-top:560%;
+		margin-left:0%;
+		margin-right:0%;
+		text-align:center;
+	}
+	.titulo-geral3{
+		font-size:32px;
+		margin-top:1%;
+	}
+	.p-geral3{
+		font-size:18px;
+		margin-top:-1%;
+	}
+	/* dispositivos*/
+	.dispositivos{
+		margin-top:655%;
+	}
+	.dispo{
+		column-count:2;
+		display:block;
+	}
+	/* perguntas frequentes */
+	.perguntas-frequentes{
+		margin-top:810%;
+	}
+	/* rodape */
+	.rodape{
+		margin-top:900%;
+	}
+}
+@media(max-width:650px){
+	/* "Assista do seu jeito" */
+	.meio-doseujeito{
+		margin-top:290%;
+	}
+	/* originais */
+	.originais{
+		margin-top:380%;
+	}
+	/* baixe filmes e series */
+	.baixe{
+		margin-top:580%;
+	}
+	/* dispositivos*/
+	.dispositivos{
+		margin-top:680%;
+	}
+	
+	/* perguntas frequentes */
+	.perguntas-frequentes{
+		margin-top:830%;
+	}
+		/* rodape */
+	.rodape{
+		margin-top:970%;
+	}
+}
+@media(max-width:630px){
+	/* baixe filmes e series */
+	.baixe{
+		margin-top:600%;
+	}
+	/* dispositivos*/
+	.dispositivos{
+		margin-top:730%;
+	}
+	
+	/* perguntas frequentes */
+	.perguntas-frequentes{
+		margin-top:885%;
+	}
+	/* rodape */
+	.rodape{
+		margin-top:1010%;
+	}
+	#logopeq{
+		width:25%;
+	}
+}
+@media(max-width:610px){
+	/* topo */
+	.botao-entrar{
+		margin-left:80%;
+	}
+	/* ofertas e planos */
+	.todos-os-planos{
+		margin-left:12%;
+		margin-right:12%;
+	}
+	/* "Assista do seu jeito" */
+	.meio-doseujeito{
+		margin-top:325%;
+	}
+	/* originais */
+	.originais{
+		margin-top:420%;
+	}
+		/* baixe filmes e series */
+	.baixe{
+		margin-top:630%;
+	}
+	/* perguntas frequentes */
+	.perguntas-frequentes{
+		margin-top:910%;
+	}
+}
